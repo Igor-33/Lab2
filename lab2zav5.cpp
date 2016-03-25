@@ -9,11 +9,11 @@ double factorial=1, factorial2n=1;
 
 for (n=1;dodanok>=0.001; n++)
 {
- factorial=factorial*n;
- factorial2n=factorial2n*(2*n-1)*2*n;
- dodanok=factorial/factorial2n;
- sum=sum+dodanok;
- printf("\n%lf", dodanok);
+    factorial=factorial*n;
+    factorial2n=factorial2n*(2*n-1)*2*n;
+    dodanok=factorial/factorial2n;
+    sum=sum+dodanok;
+    printf("\n%lf", dodanok);
  
 }
 printf("\nsum=%lf", sum);
