@@ -13,6 +13,11 @@ int main()
   if (A == 0) {
         printf("B = ");
          scanf("%d", &B);
+          if (B == 0) {
+            printf("x nema ");
+              system("Pause");
+                return 0;
+           }
            printf("C = ");
              scanf("%d", &C);
   x = -C / B;
@@ -23,6 +28,14 @@ int main()
   
   printf("B = ");
     scanf("%d", &B);
+    if (B == 0) {
+        printf("C = ");
+          scanf("%d", &C);
+            x = (sqrt(-C / A));
+                printf("x = %.2f\n", x);
+                  system("Pause");
+                     return 0;
+      }
       printf("C = ");
        scanf("%d", &C);
 
